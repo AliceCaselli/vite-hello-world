@@ -1,6 +1,6 @@
 <script>
-import Title from "./components/AppTitle.vue";
-import Jumbo from "./components/AppHero.vue";
+import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
 // funzionalità
 
 export default {
@@ -11,8 +11,8 @@ export default {
   },
 
   components: {
-    Title,
-    Jumbo,
+    AppTitle,
+    AppHero,
   }
 }
 </script>
@@ -20,9 +20,9 @@ export default {
 <template>
   <!-- layout -->
   <div class="container">
-    <Jumbo></Jumbo>
+    <AppHero></AppHero>
 
-    <Title></Title>
+    <AppTitle></AppTitle>
   </div>
 </template>
 
